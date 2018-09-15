@@ -58,3 +58,16 @@ The instructions that follow should be in bullet point form with clear guidance 
 # Update this to something more informative.
 success_msg("Some praise! Then reinforce a learning objective from the exercise.")
 ```
+
+---
+
+## Deep Learning Library
+
+```yaml
+type: VideoExercise
+key: 7bb3655ce0
+xp: 50
+```
+
+`@projector_key`
+85e49b280cb2436cac6fb7334cd914f3
