@@ -39,8 +39,8 @@ x = np.empty([5, 3])
 print(type(x))
 print(x)
 print(x.shape)
-
-# let's create an Numpy array(2d: 2-dimensional) of random numbers
+{}
+# let's create an Numpy array(2d: 2-dimensional) of random numbers(integers)
 y = np.empty([2, 2], dtype=int)
 print(type(y))
 print(y)
