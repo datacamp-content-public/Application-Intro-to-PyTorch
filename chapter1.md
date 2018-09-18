@@ -34,19 +34,19 @@ import numpy as np
 
 `@sample_code`
 ```{python}
-# construct a 5x2 Numpy matrix, empty (uninitialized)
+# construct a 5x2 Numpy array(2d: 2-dimensional), empty (uninitialized)
 x = np.empty([5, 3])
 print(x)
 print(type(x))
 print(x.shape)
 
-# let's create an array of random numbers
+# let's create an Numpy array of random numbers
 y = np.empty([2, 2], dtype=int)
 print(y)
 print(y.shape)
 
-# let's create an array of zeroes
-z = np.zeroes([2, 2], dtype=int)
+# let's create an Numpy array (1d: vector) of zeroes
+z = np.zeros([2, 2], dtype=int)
 print(z)
 print(z.shape)
 ```
