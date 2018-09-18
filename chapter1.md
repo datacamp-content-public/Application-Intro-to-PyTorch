@@ -47,7 +47,7 @@ print(y)
 print(y.shape)
 
 # let's create an Numpy array (1d: vector) of zeroes
-z = np.zeros([2, 2], dtype=int)
+z = np.zeros([4, 1], dtype=int)
 print(type(z))
 print(z)
 print(z.shape)
