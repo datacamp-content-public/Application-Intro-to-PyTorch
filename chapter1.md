@@ -29,12 +29,16 @@ The instructions that follow should be in bullet point form with clear guidance 
 
 `@pre_exercise_code`
 ```{python}
-# Load datasets and packages here.
+import numpy as np
 ```
 
 `@sample_code`
 ```{python}
-# Your
+# construct a 5x2 matrix, empty (uninitialized)
+x = np.empty([5, 3])
+print(x)
+print(type(x))
+shape.x
 # sample
 # code
 # should
