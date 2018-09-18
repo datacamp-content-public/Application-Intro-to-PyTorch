@@ -39,17 +39,16 @@ x = np.empty([5, 3])
 print(x)
 print(type(x))
 print(x.shape)
+
 # let's create an array of random numbers
 y = np.empty([2, 2], dtype=int)
 print(y)
 print(y.shape)
-# code
-# should
-# be
-# ideally
-# 10 lines or less,
-# with a max
-# of 16 lines.
+
+# let's create an array of zeroes
+z = np.zeroes([2, 2], dtype=int)
+print(z)
+print(z.shape)
 ```
 
 `@solution`
