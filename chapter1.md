@@ -36,17 +36,19 @@ import numpy as np
 ```{python}
 # construct a 5x2 Numpy array(2d: 2-dimensional), empty (uninitialized)
 x = np.empty([5, 3])
-print(x)
 print(type(x))
+print(x)
 print(x.shape)
 
 # let's create an Numpy array of random numbers
 y = np.empty([2, 2], dtype=int)
+print(type(y))
 print(y)
 print(y.shape)
 
 # let's create an Numpy array (1d: vector) of zeroes
 z = np.zeros([2, 2], dtype=int)
+print(type(z))
 print(z)
 print(z.shape)
 ```
