@@ -34,12 +34,15 @@ import numpy as np
 
 `@sample_code`
 ```{python}
-# construct a 5x2 matrix, empty (uninitialized)
+# construct a 5x2 Numpy matrix, empty (uninitialized)
 x = np.empty([5, 3])
 print(x)
 print(type(x))
-shape.x
-# sample
+print(x.shape)
+# let's create an array of random numbers
+y = np.empty([2, 2], dtype=int)
+print(y)
+print(y.shape)
 # code
 # should
 # be
