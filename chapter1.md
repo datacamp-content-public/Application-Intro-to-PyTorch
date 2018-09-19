@@ -93,10 +93,10 @@ xp: 100
 Let's create a PyTorch item
 
 `@instructions`
-Create a PyTorch tensor with shape 3 rows and 2 columns and print the results.
+Create a PyTorch tensor with 3 rows and 2 columns and print the results.
 
 `@hint`
-Here is how we create a 2 by 2 tensor
+Here is how we create a 5 by 3 tensor
 
 `@pre_exercise_code`
 
@@ -108,14 +108,22 @@ import torch
 `@sample_code`
 
 ```{python}
-
+y = torch.rand(5, 3)
+print(type(y))
+print(len(y))
+print(y.shape)
+print(y)
 ```
 
 
 `@solution`
 
 ```{python}
-
+y = torch.rand(2, 2)
+print(type(y))
+print(len(y))
+print(y.shape)
+print(y)
 ```
 
 
