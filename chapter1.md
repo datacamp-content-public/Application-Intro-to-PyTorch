@@ -79,3 +79,48 @@ xp: 50
 
 `@projector_key`
 85e49b280cb2436cac6fb7334cd914f3
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: NormalExercise
+key: 3dff719988
+xp: 100
+```
+
+Let's create a PyTorch item
+
+`@instructions`
+Create a PyTorch tensor with shape 3 rows and 2 columns and print the results.
+
+`@hint`
+Here is how we create a 2 by 2 tensor
+
+`@pre_exercise_code`
+
+```{python}
+import torch
+```
+
+
+`@sample_code`
+
+```{python}
+
+```
+
+
+`@solution`
+
+```{python}
+
+```
+
+
+`@sct`
+
+```{python}
+
+```
