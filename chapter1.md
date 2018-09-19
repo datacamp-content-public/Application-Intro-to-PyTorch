@@ -99,14 +99,11 @@ Create a PyTorch tensor with 3 rows and 2 columns and print the results.
 Here is how we create a 5 by 3 tensor
 
 `@pre_exercise_code`
-
 ```{python}
 import torch
 ```
 
-
 `@sample_code`
-
 ```{python}
 y = torch.rand(5, 3)
 print(type(y))
@@ -115,9 +112,7 @@ print(y.shape)
 print(y)
 ```
 
-
 `@solution`
-
 ```{python}
 y = torch.rand(2, 2)
 print(type(y))
@@ -126,9 +121,7 @@ print(y.shape)
 print(y)
 ```
 
-
 `@sct`
-
 ```{python}
 
 ```
